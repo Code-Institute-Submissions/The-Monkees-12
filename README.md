@@ -2,9 +2,13 @@ The Monkees – Rock Band
 
 I have created my first Milestone project based on the 1960s rock band “The Monkees”. Having studied HTML5, CSS3 and Bootstrap, I was able to create a website for the band easily and quickly using the codes Ive learned in the first three Modules of the course. This first project was definitely a positive result for me as I`ve learned what the code can do and seeing the end result (the website created by me) is definitely a strong point for my self-esteem.
 
+
+
 UX
 
 This website is designated to current and future fans that wish to learn a little bit more about the bands history, it`s members and their careers and to listen to their latest tracks and view their newest video clips. Having a central place, such as a website, where fans are kept updated with the latest and newest, tracks and videos of the band, is the best way to grow the bands popularity. Seeing the bands Events schedule and being able to buy tickets through the website makes the connection between the band and their fans even stronger and in the same time a much easier way for the fans reaching to their favourite artists.
+
+
 
 Features
 
@@ -18,6 +22,8 @@ Events – this is a “must have” page for every solo artist or band that pri
 
 Contact – like every band that wants to hear from their fans, outside of a concert, this contact page has been created for every fans to easily get in touch with the band.
 
+
+
 Existing Features
 
 •	Feature 1 - allows fans to listen and download the newest tracks.
@@ -30,11 +36,15 @@ Existing Features
 
 •	Feature 5 – the possibility to follow the latest news about the band through .the social media platforms available in each page footer.
 
+
+
 Features Left to Implement
 
 •	Live performance/live concert streams.
 
 •	Implementing a shop from where fans can get branded items.
+
+
 
 Technologies Used
 
@@ -48,6 +58,8 @@ The following technologies have been used to create this website:
 
 •	JQuery o	The project uses JQuery to simplify DOM manipulation.
 
+
+
 Testing
 
 Upton creating the website, I have tested its functionality to ensure the users are experiencing a positive feel about their connection with the band.
@@ -59,6 +71,8 @@ From the bands point of view and as they requested, the purpose of building the 
 From a fans point of view, the website is the perfect way of to find out more about the band, the bands members, their latest tracks, videos and future concerts. Being able to buy tickets to their shows makes the experience even easier and more pleasant.
 
 As an example of testing the website, if we are looking at the Tracks page and test the music player we will find that it works perfectly every time. Upon clicking the play button, the song starts playing and the button changes to a “pause” button that can be actioned whenever we want to pause the song. There is also a timer for every song, showing the elapsed time as well as the total time of the song to inform the user how long has the song played for, out of the total time of the song. We also have a “track bar” that tracks and shows the progress of each song. Moving further to the right, we have a “speaker” button that when is actioned it will mute the song instantly. The last setting of the music player is the three small squares align vertically, that, when actioned, it shows a “download” feature that works perfectly and it downloads the song immediately to the users operating systems download folder.
+
+
 
 Deployment
 
