@@ -39,7 +39,7 @@ The Monkees – this page has been dedicated to every member of the band. A more
 ...
 
 
-##Features Left to Implement
+## Features Left to Implement
 
 •	Live performance/live concert streams.
 
@@ -48,7 +48,7 @@ The Monkees – this page has been dedicated to every member of the band. A more
 ...
 
 
-##Technologies Used
+## Technologies Used
 
 The following technologies have been used to create this website:
 
@@ -63,7 +63,7 @@ The following technologies have been used to create this website:
 ...
 
 
-##Testing
+## Testing
 
 Upton creating the website, I have tested its functionality to ensure the users are experiencing a positive feel about their connection with the band.
 
@@ -78,6 +78,6 @@ As an example of testing the website, if we are looking at the Tracks page and t
 ...
 
 
-##Deployment
+## Deployment
 
 I have decided to upload my project to Github as it is the best known platform for sharing projects with other coders. Credits Content •	The text for this website was copied from the Wikipedia “The Monkees” article Media •	The photos used in this site were obtained from the project details provided by Code Institute Acknowledgements •	I received no inspiration for other projects whatsoever, but I have gone through some chapters of the course to refresh my memory with some commands.
