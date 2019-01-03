@@ -1,3 +1,5 @@
+https://stanciudorin.github.io/The-Monkees/home.html
+
 # The Monkees – Rock Band
 
 I have created my first Milestone project based on the 1960s rock band “The Monkees”. Having studied HTML5, CSS3 and Bootstrap, I was able to create a website for the band easily and quickly using the codes Ive learned in the first three Modules of the course. This first project was definitely a positive result for me as I`ve learned what the code can do and seeing the end result (the website created by me) is definitely a strong point for my self-esteem.
