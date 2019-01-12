@@ -1,4 +1,4 @@
-https://stanciudorin.github.io/The-Monkees/home.html
+https://stanciudorin.github.io/The-Monkees/
 
 # The Monkees – Rock Band
 
