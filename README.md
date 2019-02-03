@@ -1,4 +1,4 @@
-https://stanciudorin.github.io/The-Monkees/home.html
+https://stanciudorin.github.io/The-Monkees/
 
 # The Monkees – Rock Band
 
@@ -28,15 +28,15 @@ The Monkees – this page has been dedicated to every member of the band. A more
 
 ## Existing Features
 
-* **Feature 1** - allows fans to listen and download the newest tracks.
+* allows fans to listen and download the newest tracks.
 
-*	**Feature 2** – allows fans to watch they bands latest video clips.
+*	allows fans to watch they bands latest video clips.
 
-*	**Feature 3** – buying tickets to the bands concerts straight from the website.
+*	buying tickets to the bands concerts straight from the website.
 
-*	**Feature 4** – getting in touch with the band through the Contact Page.
+*	getting in touch with the band through the Contact Page.
 
-*	**Feature 5** – the possibility to follow the latest news about the band through .the social media platforms available in each page footer.
+*	the possibility to follow the latest news about the band through .the social media platforms available in each page footer.
 
 
 
@@ -54,13 +54,13 @@ The Monkees – this page has been dedicated to every member of the band. A more
 
 The following technologies have been used to create this website:
 
-*	**HTML5** o	I`ve used HTML5 for structuring and presenting content on the World Wide Web.
+*	**HTML** -	I`ve used HTML5 for structuring and presenting content on the World Wide Web.
 
-*	**CSS** o	CSS has been used to apply extra styles to different sections of the website where these were required.
+*	**CSS** -	CSS has been used to apply extra styles to different sections of the website where these were required.
 
-*	**Bootstrap** o	Bootstrap has also been used for this project to make the website responsive on different devices, easier and quicker.
+*	**Bootstrap** -	Bootstrap has also been used for this project to make the website responsive on different devices, easier and quicker.
 
-*	**JQuery** o	The project uses JQuery to simplify DOM manipulation.
+*	**JQuery** -	The project uses JQuery to simplify DOM manipulation.
 
 
 
@@ -75,18 +75,20 @@ From the bands point of view and as they requested, the purpose of building the 
 
 From a fans point of view, the website is the perfect way of to find out more about the band, the bands members, their latest tracks, videos and future concerts. Being able to buy tickets to their shows makes the experience even easier and more pleasant.
 
-As an example of testing the website, if we are looking at the Tracks page and test the music player we will find that it works perfectly every time. Upon clicking the play button, the song starts playing and the button changes to a “pause” button that can be actioned whenever we want to pause the song. There is also a timer for every song, showing the elapsed time as well as the total time of the song to inform the user how long has the song played for, out of the total time of the song. We also have a “track bar” that tracks and shows the progress of each song. Moving further to the right, we have a “speaker” button that when is actioned it will mute the song instantly. The last setting of the music player is the three small squares align vertically, that, when actioned, it shows a “download” feature that works perfectly and it downloads the song immediately to the users operating systems download folder.
+As an example of testing the website, if we are looking at the Tracks page and test the music player we will find that it works perfectly every time. Upon clicking the play button, the song starts playing and the button changes to a “pause” button that can be actioned whenever we want to pause the song. There is also a timer for every song, showing the elapsed time as well as the total time of the song to inform the user how long has the song played for, out of the total time of the song.
+
+We also have a “track bar” that tracks and shows the progress of each song. Moving further to the right, we have a “speaker” button that when is actioned it will mute the song instantly. The last setting of the music player is the three small squares align vertically, that, when actioned, it shows a “download” feature that works perfectly and it downloads the song immediately to the users operating systems download folder.
 
 
 
 
 ## Deployment
 
-I have decided to upload my project to Github as it is the best known platform for sharing projects with other coders. 
+I have decided to upload my project to Github as it is the best known platform for sharing projects with other coders. To do so, I accessed the "Settings" button on the right hand side of the page, which took me into the page where I gave my project a name. I selected the "Master Branch" function withing the GitHub Pages and saved it to be published onto my GitHub [page](https://stanciudorin.github.io/The-Monkees/).
 
 
 ## Credits Content 
 
-* The text for this website was copied from the Wikipedia “The Monkees” article Media 
-* The photos used in this site were obtained from the project details provided by Code Institute Acknowledgements 
-* I received no inspiration for other projects whatsoever, but I have gone through some chapters of the course to refresh my memory with some commands.
+* The text for this website was copied from the Wikipedia [“The Monkees”](https://stanciudorin.github.io/The-Monkees/) article Media 
+* The photos used in this site were obtained from the project details provided by [Code Institute](https://codeinstitute.net) Acknowledgements 
+* I received no inspiration for other projects whatsoever, but I have gone through some chapters of the course to refresh my memory with some commands, functions and lines of codes.
