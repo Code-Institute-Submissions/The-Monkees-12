@@ -2,16 +2,14 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
         <title>The Monkees</title>
     </head>
     <body class="body">
@@ -21,8 +19,8 @@
         </button>
         <div class="container-fluid">
             <div class = "collapse navbar-collapse" id="navbarsExampleDefault">
-                <a href = "#" class = "navbar navbar-brand">The Monkees</a>
-                <img src="images/cover2.jpg" class="logo">
+                <a href = "index.html" class = "navbar navbar-brand">The Monkees
+                <img src="images/cover2.jpg" class="logo"></a>
                 <ul class = "navbar-nav ml-auto">
                     <li class = "nav-item my-3 mx-5">
                         <a href = "index.html" class = "nav-link">Home</a>
@@ -65,7 +63,7 @@
                     <td>19:45</td>
                     <td>London Christmas Market</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
@@ -73,7 +71,7 @@
                     <td>19:30</td>
                     <td>Manchester - Arena</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
@@ -81,7 +79,7 @@
                     <td>19:00</td>
                     <td>Liverpool Stadium</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
@@ -89,7 +87,7 @@
                     <td>20.00</td>
                     <td>Birmingham - Bull Ring</td>
                     <td class="text-danger">Sold Out</td>
-                    <td><button class="btn btn-primary disabled">Buy ticket</button></td>
+                    <td><button class="btn btn-primary disabled" data-toggle="modal" data-target="#exampleModalCenterSold">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
@@ -97,7 +95,7 @@
                     <td>19:30</td>
                     <td>Northampton - Stadium</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">6</th>
@@ -105,7 +103,7 @@
                     <td>19:45</td>
                     <td>Milton Keynes - Shopping Center</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">7</th>
@@ -113,7 +111,7 @@
                     <td>20:30</td>
                     <td>Oxford - Mall</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">8</th>
@@ -121,7 +119,7 @@
                     <td>19:00</td>
                     <td>Edinburgh - Central Market</td>
                     <td class="text-danger">Sold Out</td>
-                    <td><button class="btn btn-primary disabled">Buy ticket</button></td>
+                    <td><button class="btn btn-primary disabled" data-toggle="modal" data-target="#exampleModalCenterSold">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">9</th>
@@ -129,7 +127,7 @@
                     <td>19:30</td>
                     <td>Dublin - City Center</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">10</th>
@@ -137,7 +135,7 @@
                     <td>19:45</td>
                     <td>London O2</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 <tr>
                     <th scope="row">1</th>
@@ -145,18 +143,55 @@
                     <td>19:45</td>
                     <td>London - White City</td>
                     <td>Available</td>
-                    <td><button class="btn btn-primary">Buy ticket</button></td>
+                    <td><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy ticket</button></td>
                 </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Thank you for your purchase!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Your ticket has been purchased successfully!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenterSold" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitleSold" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitleSold">Purchase unauthorized!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tickets SOLD OUT!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="footer bg-dark">
         <div class="row">
             <div class="col-sm-4">
-                <p class="text text-white p-1">@2018 Copyright ~ The Monkees</p>
+                <p class="text text-white p-1">@2019 Copyright ~ The Monkees</p>
                 <blockquote class="blockquote-footer text-white">Designed & Developed by Dorin Stanciu</blockquote>
             </div>
             <div class="col-sm-4 mt-4">
@@ -173,5 +208,11 @@
             </div>
         </div>
     </div>
+
+    <!-- JQuery , Cloudflare, Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
     </body>
 </html>

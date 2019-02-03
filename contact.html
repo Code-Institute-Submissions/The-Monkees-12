@@ -2,16 +2,14 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
         <title>The Monkees</title>
     </head>
     <body class="body">
@@ -21,8 +19,8 @@
         </button>
         <div class="container-fluid">
             <div class = "collapse navbar-collapse" id="navbarsExampleDefault">
-                <a href = "#" class = "navbar navbar-brand">The Monkees</a>
-                <img src="images/cover2.jpg" class="logo">
+                <a href = "index.html" class = "navbar navbar-brand">The Monkees
+                <img src="images/cover2.jpg" class="logo"></a>
                 <ul class = "navbar-nav ml-auto">
                     <li class = "nav-item my-3 mx-5">
                         <a href = "index.html" class = "nav-link">Home</a>
@@ -48,7 +46,7 @@
         <h1 class="text-center p-5">Contact Us</h1>
 
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <address>
                     <h2 class="header">Studio Address</h2>
                     <br>
@@ -58,36 +56,31 @@
                     <p>United States Of America</p>
                     <p>Email: contact@themonkees.com</p>
                     <p>Tel: 210-789 989 99 79</p>
-                    <br><br><br><br><br><br><br><br>
-                    <p>The band would like to hear from you my dear fan.</p>
-                    <br>
-                    <p>Use the above contact details and get in touch by post, e-mail or by telephone.</p>
-                    <br>
-                    <p>The band would like to hear from you my dear fan.</p>
-                    <br><br>
-                </address>
 
+                    <hr>
+
+                </address>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-sm-12">
                 <h2 class="header">Contact by form</h2>
-                <br>
-                <div class="form-group">
+                <form>
+                    <div class="form-group">
                     <label>Name</label>
                     <input type="text" class="form-control">
                 </div>
-                <div class="form-group">
-                    <label>E-mail</label>
-                    <input type="email" class="form-control" name="email">
-                </div>
-                <div class="form-group">
-                    <label>Message</label>
-                    <textarea class="form-control" rows="5"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-                <br><br><br><br>
-                <p>Or simply fill out the above form with your details and a brief message!</p><br>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -95,7 +88,7 @@
     <div class="footer bg-dark">
         <div class="row">
             <div class="col-sm-4">
-                <p class="text text-white p-1">@2018 Copyright ~ The Monkees</p>
+                <p class="text text-white p-1">@2019 Copyright ~ The Monkees</p>
                 <blockquote class="blockquote-footer text-white">Designed & Developed by Dorin Stanciu</blockquote>
             </div>
             <div class="col-sm-4 mt-4">
@@ -113,7 +106,10 @@
         </div>
     </div>
 
-
+    <!-- JQuery , Cloudflare, Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     </body>
     </html>
