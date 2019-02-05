@@ -112,6 +112,12 @@ footer
     vertical-align: middle;
 }
 
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
